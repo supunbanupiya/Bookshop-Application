@@ -1,0 +1,82 @@
+.App{
+    height: 100vh;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(129, 129, 214);
+}
+.bb{
+    margin: 20px;
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+    background-color: rgb(205, 104, 32);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+:link{
+    text-decoration: none;
+}
+.books{
+    display: flex;
+    background-color: rgb(180, 216, 216);
+    gap: 10px;
+}
+.book{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(144, 201, 201);
+    gap: 8px;
+    align-items: center;
+    
+}
+img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    background-color: rgb(182, 69, 153);
+}
+.delete{
+    border: none;
+    padding: 3px 6px;
+    background-color: rgb(211, 219, 127);
+    cursor: pointer;
+    
+}
+
+.update{
+    border: none;
+    padding: 3px 6px;
+    background-color: rgb(234, 136, 136);
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    width: 250px;
+    padding: 10px;
+    border: 1px solid gray;
+}
+.btn{
+    width: 270px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(242, 94, 94);
+     font-weight: bold;
+}
+.ada{
+    padding: 10px;
+    background-color: brown;
+    border: none;
+    color: wheat;
+    font-weight: bold;
+    font-size: 16px;
+}
